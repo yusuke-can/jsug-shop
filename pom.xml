@@ -22,6 +22,7 @@
 		<java.version>1.8</java.version>
 		<lombok.version>1.16.4</lombok.version>
 		<log4jdbc.log4j2.version>1.16</log4jdbc.log4j2.version>
+		<orangesignal.csv>2.2.1</orangesignal.csv>
 	</properties>
 
 	<dependencies>
@@ -89,7 +90,11 @@
 			<artifactId>log4jdbc-log4j2-jdbc4.1</artifactId>
 			<version>${log4jdbc.log4j2.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>com.orangesignal</groupId>
+			<artifactId>orangesignal-csv</artifactId>
+			<version>${orangesignal.csv}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
